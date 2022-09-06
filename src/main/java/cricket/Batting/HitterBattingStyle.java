@@ -1,10 +1,10 @@
-package cricket.Batsman;
+package cricket.Batting;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Hitter extends Batsman {
-  public Hitter() {
+public class HitterBattingStyle extends BattingStyle {
+  public HitterBattingStyle() {
     possibleRuns = new ArrayList<>(Arrays.asList(0, 4, 6));
   }
 }

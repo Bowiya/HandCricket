@@ -1,8 +1,8 @@
 package cricket.match;
 
 public enum MatchResult {
-  BATSMAN_HAS_WON("Batsman has Won"),
-  BATSMAN_HAS_LOST("Batsman has Lost");
+  FIRST_PLAYER_WON("First Player has Won"),
+  SECOND_PLAYER_WON("Second Player has Won");
 
   private final String value;
 
